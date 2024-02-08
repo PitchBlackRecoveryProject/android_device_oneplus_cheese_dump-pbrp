@@ -1,5 +1,5 @@
 #
-# Copyright 2017 - 2023 The Android Open Source Project
+# Copyright 2017 - 2024 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := cheeseburger_dumpling
+PRODUCT_RELEASE_NAME := cheese_dump
 
 DEVICE_PATH := device/oneplus/$(PRODUCT_RELEASE_NAME)
 
