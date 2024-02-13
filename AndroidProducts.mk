@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_cheese_dump.mk
+    $(LOCAL_DIR)/omni_cheesedump.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_cheese_dump-eng \
-    omni_cheese_dump-userdebug
+    omni_cheesedump-eng \
+    omni_cheesedump-userdebug

@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := cheese_dump
+PRODUCT_RELEASE_NAME := cheesedump
 
 DEVICE_PATH := device/oneplus/$(PRODUCT_RELEASE_NAME)
 

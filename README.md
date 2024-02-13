@@ -1,4 +1,4 @@
-# android_device_oneplus_cheese_dump
+# android_device_oneplus_cheesedump
 
 Tree for building Unofficial PBRP for OnePlus 5/5T. (Decryption works on Android 12+ ROMs)
 
@@ -42,7 +42,7 @@ Then add to a local manifest (if you don't have .repo/local_manifests then make 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <project name="faoliveira78/android_device_oneplus_cheese_dump-pbrp" path="device/oneplus/cheese_dump" remote="github" revision="android-12.1"/>
+ <project name="PitchBlackRecoveryProject/android_device_oneplus_cheesedump-pbrp" path="device/oneplus/cheesedump" remote="github" revision="android-12.1"/>
 </manifest>
 ```
 
@@ -59,6 +59,6 @@ Finally execute these:
 ```
 . build/envsetup.sh
 export LC_ALL=C
-lunch omni_cheese_dump-eng
+lunch omni_cheesedump-eng
 mka pbrp
 ```
