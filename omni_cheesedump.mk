@@ -19,7 +19,7 @@ PRODUCT_RELEASE_NAME := cheesedump
 
 DEVICE_PATH := device/oneplus/$(PRODUCT_RELEASE_NAME)
 
-# Inherit from oxygen device
+# Inherit from hardware-specific part of the product configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 ## Device identifier. This must come after all inclusions

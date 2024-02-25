@@ -58,6 +58,7 @@ Finally execute these:
 
 ```
 . build/envsetup.sh
+export ALLOW_MISSING_DEPENDENCIES=true
 export LC_ALL=C
 lunch omni_cheesedump-eng
 mka pbrp
